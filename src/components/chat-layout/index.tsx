@@ -20,7 +20,7 @@ const ChatLayout = ({ children }: PropsWithChildren) => {
             toggleSidebar={toggleSidebar}
             isSidebarOpen={isSidebarOpen}
           />
-          <main className="flex-1 p-4 overflow-auto">{children}</main>
+          <main className="flex-1 overflow-auto">{children}</main>
         </div>
       </div>
       {/* Mobile View */}
@@ -30,7 +30,7 @@ const ChatLayout = ({ children }: PropsWithChildren) => {
             toggleSidebar={toggleSidebar}
             isSidebarOpen={isSidebarOpen}
           />
-          <main className="flex-1 p-4 overflow-auto">{children}</main>
+          <main className="flex-1 overflow-auto">{children}</main>
         </div>
         <MobileDrawer
           toggleSidebar={toggleSidebar}
